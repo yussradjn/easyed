@@ -1,0 +1,159 @@
+body {
+  font-family: Poppins;
+  font-size: 1.2rem;
+}
+
+h1, h3, h4 {
+  font-weight: bold;
+}
+
+h3, h4 {
+  color: #50355e;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+/* Head Section */
+#head-section {
+  padding: 3% 10% 8.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.7rem;
+  color: #1eb2a6;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-item {
+  margin: 0 4%;
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #1eb2a6;
+}
+
+/* container */
+.container {
+  width: 40%;
+  margin: 8% 0 7%;
+}
+
+.welcome {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-custom {
+  background-color: #1eb2a6;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  border-radius: 0;
+  margin: 5% 0;
+}
+
+/* Advice Section */
+#advice {
+  padding: 3% 10%;
+}
+
+.advice-img {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin: 0 3%;
+}
+
+.advice-text {
+  padding: 3% 0 1%;
+  width: 60%;
+}
+
+.angela {
+  font-weight: bold;
+  text-align: right;
+  color: #50355e;
+}
+
+/* Courses Section */
+#courses {
+  padding: 3% 10%;
+}
+
+.course-img {
+  border-radius: 50px;
+  margin: 3% 0;
+  padding-bottom: 3%;
+  width: 300px;
+  height: 200px;
+}
+
+.fa-star {
+  color: #ffc107;
+}
+
+.price {
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+/* #testimonials { */
+/* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* background-color: #d5b7dd; */
+#testimonials{
+  background-color: #d5b7dd;
+  padding: 2%;
+
+}
+#testimonials h3{
+  text-align:right;
+  font-size: 3rem;
+  font-family: "Josefin sans", sans-serif;
+
+}
+.profil-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  float: left;
+  margin: 0 3%;
+}
+
+.testimonials-text {
+  color: #fff;
+  width: 50%;
+  font-family: "Josefin sans", sans-serif;
+  font-size: 2.5rem;
+  margin: 5% auto 0;
+  font-style: italic;
+
+}
+
+em {
+  color: #50355e;
+}
